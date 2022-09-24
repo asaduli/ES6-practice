@@ -14,8 +14,15 @@ let newstr=str.replace('a','z');  //
 console.log("newstr: " + newstr);
 
 // slice(startpostion, endposition) ..end postion not included
-let slicestr=str.slice(0,25); //slice(startpositon) [if the second parameter is not included than rest of the character will be sliced]
+let slicestr=str.slice(2,6); //slice(startpositon) [if the second parameter is not included than rest of the character will be sliced]
 
 console.log(slicestr);
+
+// substring(star,end) similar to slice()
+
+let part=str.substring(2,6);
+console.log(part);
+
+
 
 
