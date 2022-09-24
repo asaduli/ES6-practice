@@ -66,4 +66,14 @@ let text1=" \'This is text with white space\' ";
 console.log(text1.trim());
 console.log(text1.trimStart());
 
+//Pad method
+//for adding character 
+//fisrt parameter is number of combined character include adding character
+//second parameter is the charcter to add
+
+
+let text2='5';
+console.log(text2.padStart(5,'0'));
+console.log(text2.padEnd(5,'0'));
+
 
