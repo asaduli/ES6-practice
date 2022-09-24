@@ -55,6 +55,15 @@ let concat2="Seeyam";
 console.log(concat1.concat(' ').concat(concat2));
 
 
+// Trim() method
 
+//Remove white space from both side of the string 
+//trimStart() remove white space from the star of sting 
+//trimEnd() remove white space from the end of string 
+
+
+let text1=" \'This is text with white space\' ";
+console.log(text1.trim());
+console.log(text1.trimStart());
 
 
