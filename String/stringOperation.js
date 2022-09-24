@@ -40,6 +40,13 @@ console.log(part);
 
 //let part2=str.substr(2,6);
 
+//toUpperCase , toLowerCase method
+
+let lower='asadul islam seeyam';
+let upper='ASADUL ISlam SEEyam';
+console.log(lower.toUpperCase());
+console.log(upper.toLowerCase());
+
 
 
 
