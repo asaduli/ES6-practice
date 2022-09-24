@@ -48,6 +48,13 @@ console.log(lower.toUpperCase());
 console.log(upper.toLowerCase());
 
 
+//String Concatanation Method
+
+let concat1="My name is";
+let concat2="Seeyam";
+console.log(concat1.concat(' ').concat(concat2));
+
+
 
 
 
