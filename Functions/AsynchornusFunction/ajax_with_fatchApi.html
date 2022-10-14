@@ -1,0 +1,18 @@
+<script>
+    
+async  function getAjaxData(url) {
+
+
+let res= await fetch(url)
+let data=await res.json();
+
+return  data;
+
+}
+
+let user=getAjaxData('https://jsonplaceholder.typicode.com/users');
+
+user.then(v=>{
+    v.map(value=>console.log(value.name));
+})
+</script>
